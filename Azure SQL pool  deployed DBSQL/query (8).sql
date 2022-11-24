@@ -1,0 +1,1 @@
+CREATE EXTERNAL DATA SOURCE AzureStorage WITH ( TYPE = HADOOP, LOCATION = 'wasbs://raw@stgeoirvm.blob.core.windows.net', CREDENTIAL = AzureStorageCredential );
